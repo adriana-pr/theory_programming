@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgba(235, 218, 193, 0.6);
+}
+
+.navbar {
+    background: rgb(136, 124, 106);
+    height: 70px;
+    padding: 0 50px;
+
+}
+
+.nav-link,
+.navbar-brand {
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+} 
+
+.portfolio {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.portfolio h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 65px;
+    color: rgb(110, 99, 83);
+    letter-spacing: 5px;
+}
+
+.portfolio-item {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-item img {
+    max-width: 130px;
+    border-radius: 50px;
+    margin-right: 25px;
+}
+
+.portfolio-item p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: rgb(73, 68, 59);
+    max-width: 30%;
+}
+
+.description {
+    background-color: rgb(136, 124, 106);
+    margin-top: 10%;
+    padding: 60px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+}
+
+.container-title {
+    margin: 7% 0 60px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: rgb(110, 99, 83);
+}
+
+.row {
+    margin: 0 -50px;
+}
+
+.features .col-lg-4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.features .col-lg-4 img {
+    width: 80%;
+}
+
+.features .col-lg-4 h3,
+.features .col-lg-4 p {
+    color: rgb(73, 68, 59);
+    font-size: 30px;
+}
+
+.features .col-lg-4 p {
+    font-size: 18px;
+}
+
+.page-footer {
+    margin-top: 30px;
+    background: rgb(136, 124, 106);
+    color: #fff;
+    padding: 60px 0 30px;
+}
+
+.page-footer .col-lg-4 {
+    color: #fff;
+}
